@@ -5,11 +5,10 @@
   "homepage": "https://tgluong.github.io/",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
+    "export": "next export",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "next build && next export",
-    "deploy": "gh-pages -d out"
+    "lint": "next lint"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.4",
