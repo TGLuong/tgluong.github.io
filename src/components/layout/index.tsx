@@ -1,11 +1,11 @@
 import Header from "./header"
 import Footer from "./footer"
 
-const Layout: any = ({children}: any) => {
+const Layout = ({children}: any): JSX.Element => {
   return (
     <>
       <Header/>
-      <main>{children}</main>
+      <div style={{paddingTop: '90px'}}>{children}</div>
       <Footer/>
     </>
   )

@@ -1,0 +1,43 @@
+.root {
+  * {
+    font-family: 'Roboto';
+  }
+
+  h1 {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  i {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  b {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  a {
+    font-size: 18px;
+    color: rbga(100,100,100,1);
+  }
+}

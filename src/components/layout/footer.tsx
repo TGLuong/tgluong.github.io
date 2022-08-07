@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
         </div>
         <div className={styles.down}>
-          <h1>2022 - Ha Noi, Viet Nam</h1>
+          <h4>2022 - Ha Noi, Viet Nam</h4>
         </div>
       </div>
     </>
