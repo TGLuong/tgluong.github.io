@@ -8,38 +8,58 @@ const HomePageComponent: NextPage = () => {
     {
       link: 'link',
       image: 'image',
-      header: 'header',
-      meta: 'meta'
+      header: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, sint.',
+      meta: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora \
+             ipsam ullam eos quasi sit, aperiam nulla nobis illo? Delectus reprehenderit \
+             voluptatibus corporis officiis laborum deleniti voluptatum quaerat excepturi \
+             accusamus repellendus.'
     },
     {
       link: 'link',
       image: 'image',
-      header: 'header',
-      meta: 'meta'
+      header: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, sint.',
+      meta: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora \
+             ipsam ullam eos quasi sit, aperiam nulla nobis illo? Delectus reprehenderit \
+             voluptatibus corporis officiis laborum deleniti voluptatum quaerat excepturi \
+             accusamus repellendus.'
     },
     {
       link: 'link',
       image: 'image',
-      header: 'header',
-      meta: 'meta'
+      header: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, sint.',
+      meta: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora \
+             ipsam ullam eos quasi sit, aperiam nulla nobis illo? Delectus reprehenderit \
+             voluptatibus corporis officiis laborum deleniti voluptatum quaerat excepturi \
+             accusamus repellendus.'
     },
     {
       link: 'link',
       image: 'image',
-      header: 'header',
-      meta: 'meta'
+      header: 'headerLorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, sint.',
+      meta: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora \
+             ipsam ullam eos quasi sit, aperiam nulla nobis illo? Delectus reprehenderit \
+             voluptatibus corporis officiis laborum deleniti voluptatum quaerat excepturi \
+             accusamus repellendus. sit, aperiam nulla nobis illo? Delectus reprehenderit \
+             voluptatibus corporis officiis laborum deleniti voluptatum quaerat excepturi \
+             accusamus repellendus. sit, aperiam nulla nobis illo? Delectus reprehenderit \
+             voluptatibus corporis officiis laborum deleniti voluptatum quaerat excepturi \
+             accusamus repellendus. sit, aperiam nulla nobis illo? Delectus reprehenderit \
+             voluptatibus corporis officiis laborum deleniti voluptatum quaerat excepturi \
+             accusamus repellendus. '
     },
     {
       link: 'link',
       image: 'image',
-      header: 'header',
-      meta: 'meta'
+      header: 'headerLorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, sint.',
+      meta: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora \
+             ipsam ullam eos quasi sit, aperiam nulla nobis illo? Delectus reprehenderit \
+             '
     },
     {
       link: 'link',
       image: 'image',
-      header: 'header',
-      meta: 'meta'
+      header: 'headerLorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, sint.',
+      meta: 'Lorem ipsum dolor sit, amet c.'
     }
   ]
 
