@@ -1,3 +1,5 @@
+@import '/src/styles/scss/colors';
+
 .root {
   display: flex;
   align-items: center;
@@ -36,5 +38,12 @@
     width: 1000px;
     padding-top: 150px;
     padding-bottom: 50px;
+     h1 {
+      border-bottom: 2px solid $separator-color;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      color: rgba(0, 0, 0, 1);
+     }
   }
 }

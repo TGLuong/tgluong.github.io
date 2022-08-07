@@ -1,4 +1,16 @@
+@import '/src/styles/scss/colors';
+
 .root {
-  height: 200px;
-  border: 1px solid black;
+  // border: 1px solid black;
+  padding-bottom: 50px;
+   p {
+    text-align: justify;
+   }
+}
+
+.line {
+  width: 200px;
+  height: 1px;
+  background-color: $separator-color;
+  margin-bottom: 20px;
 }
