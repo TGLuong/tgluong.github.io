@@ -1,5 +1,5 @@
-import internal from 'stream'
 import styles from 'styles/scss/home/topic/topic.module.scss'
+import { memo } from 'react'
 
 type TopicProps = {
   link: string,
@@ -19,4 +19,4 @@ const Topic = ({link, image, header, meta}: TopicProps): JSX.Element => {
   )
 }
 
-export default Topic
+export default memo(Topic)
