@@ -3,14 +3,34 @@
 .root {
   // border: 1px solid black;
   padding-bottom: 50px;
-   p {
-    text-align: justify;
-   }
+
+  p {
+  text-align: justify;
+  }
+
+  .header {
+    transition: .2s;
+    cursor: pointer;
+
+    &:hover {
+      color: red;
+    }
+  }
+
+  .date {
+    text-align: right;
+    color: $date-color;
+    transition: .2s;
+
+    &:hover {
+      color: black;
+    }
+  }
 }
 
 .line {
   width: 200px;
-  height: 1px;
+  height: 2px;
   background-color: $separator-color;
   margin-bottom: 20px;
 }

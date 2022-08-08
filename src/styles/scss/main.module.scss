@@ -1,11 +1,11 @@
 .root {
   * {
-    font-family: 'Roboto';
+    font-family: 'IBM Plex Serif', serif;
   }
 
   h1 {
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 0.2px;
   }
 
@@ -20,11 +20,13 @@
 
   h4 {
     font-size: 18px;
+    font-weight: 600;
   }
 
   p {
-    font-size: 18px;
+    font-size: 17px;
     letter-spacing: 1px;
+    font-weight: 400;
   }
 
   i {

@@ -4,11 +4,11 @@ import styles from 'styles/scss/layout/header.module.scss'
 const Header = (): JSX.Element => {
   return (
     <div className={styles.container}>
-      <h1>Tran Gia Luong</h1>
+      <Link href={'/'}><h1>Tran Gia Luong</h1></Link>
       <li>
-        <ul><Link href={'/'}>Home</Link></ul>
-        <ul><Link href={'/#articles'}>Articles</Link></ul>
-        <ul><Link href={'/#contact'}>Contact</Link></ul>
+        <ul><Link href={'/'}><h4>Home</h4></Link></ul>
+        <ul><Link href={'/#articles'}><h4>Articles</h4></Link></ul>
+        <ul><Link href={'/#contact'}><h4>Contact</h4></Link></ul>
       </li>
     </div>
   )

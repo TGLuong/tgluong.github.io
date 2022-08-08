@@ -8,10 +8,6 @@ import Head from 'next/head'
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider>
-      <Head>
-        <link rel="icon" href='/logo.ico'/>
-        <title>TGLuong</title>
-      </Head>
       <main className={styles.root}>
         <Layout cla>
           <Component {...pageProps} />
