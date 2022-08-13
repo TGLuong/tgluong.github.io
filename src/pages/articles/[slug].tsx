@@ -9,8 +9,6 @@ const Articles: NextPage = ()  => {
   const { slug } = router.query
   const element = getPage(slug)
 
-  console.log(element)
-
   return (
     <>
       <Head>
