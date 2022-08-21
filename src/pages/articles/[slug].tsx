@@ -1,6 +1,7 @@
 import type { NextPage } from "next"
 import Head from "next/head";
 import NotFoundPageComponent from "components/notFound";
+import ArticlesSkeleton from "components/skeletons/articlesSkeleton";
 import { useRouter } from "next/router"
 import { getPage } from "libs/getPage";
 
@@ -13,10 +14,10 @@ const Articles: NextPage = ()  => {
   return (
     <>
       <Head>
-        <title>{element?.header? element.header : "TGLuong"}</title>
-        <meta>{element?.meta? element.meta : null}</meta>
+        <title>{element?.header ? element.header : "TGLuong"}</title>
+        <meta>{element?.meta ? element.meta : null}</meta>
       </Head>
-      <div>{element?.page ? element.page : <NotFoundPageComponent/>}</div>
+      <div>{element?.page ? element.page : slug? <NotFoundPageComponent/> : <ArticlesSkeleton/> }</div>
     </>
   )
 }
