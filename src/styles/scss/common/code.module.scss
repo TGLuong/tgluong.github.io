@@ -1,0 +1,15 @@
+@import '../colors';
+
+.root {
+  position: relative;
+
+  button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  * {
+    font-family: "Fira Code", monospace;
+  }
+}
