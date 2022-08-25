@@ -1,20 +1,19 @@
 import styles from 'styles/scss/common/bookmark.module.scss'
 import {BsFillBookmarkStarFill} from 'react-icons/bs'
-import cn from 'classnames'
+import classname from 'classnames'
 import { Icon } from '@chakra-ui/react'
 
-export type BookMarkElement = {
+export type BookMarkProps = {
   datas: Array<{
     id: any,
     title: string,
     component: JSX.Element
   }>,
-  onSelect: any,
-  selected: number
+  selectedId: number,
+  onSelect(id: number, component: JSX.Element): void,
 }
 
-const BookMark = ({datas, onSelect, selected}: BookMarkElement) => {
-  console.log(`selected: ${selected}`)
+const BookMark = ({datas, selectedId, onSelect}: BookMarkProps): JSX.Element => {
   return (
     <div className={styles.root}>
       <h2>Contents</h2>
@@ -25,9 +24,9 @@ const BookMark = ({datas, onSelect, selected}: BookMarkElement) => {
             onClick={() => { 
               onSelect(element.id, element.component)
             }}
-            className={cn({[styles['selected']]: selected == element.id})}
+            className={classname({[styles.selected]: selectedId == element.id})}
           >
-            <Icon as={BsFillBookmarkStarFill} />{element.title}
+            <Icon as={BsFillBookmarkStarFill}/>{element.title}
           </p>
         )
       })}
