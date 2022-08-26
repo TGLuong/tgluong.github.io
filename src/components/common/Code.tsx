@@ -19,13 +19,13 @@ const Code = ({lang, children}: CodeProp): JSX.Element => {
       <SyntaxHighlighter
         language={lang}
         style={vs}
-        showLineNumbers={true}
         customStyle={{
-          boxShadow: '0px 1px 1px rgba(0, 0, 0, 0.3)',
+          border: 'none',
           fontSize: '18px',
           fontWeight: 500,
           borderRadius: '5px',
           padding: '20px 20px 20px 20px',
+          backgroundColor: '#f6f8fa',
         }}
         
       >

@@ -1,9 +1,13 @@
 .root {
-  min-height: 700px;
   display: flex;
 
   .contents {
     width: 100%;
     padding: 10px 10px 10px 30px;
+  }
+
+  .footer {
+    height: 100px;
+    border: 1px solid black;
   }
 }
