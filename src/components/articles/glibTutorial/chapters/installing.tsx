@@ -38,7 +38,7 @@ const Installing = () => {
         <h2>2. Dowload source and Install</h2>
         <p>
           You can find latest version of dbus in
-          <a target={'_blank'} href={'https://dbus.freedesktop.org/releases/dbus/'}>dbus releases page</a> 
+          <a target={'_blank'} rel="noreferrer" href={'https://dbus.freedesktop.org/releases/dbus/'}>dbus releases page</a> 
           . At writing time, i am using version 1.14.0.
         </p>
         <Code lang={'bash'}>{downloadCode}</Code>
