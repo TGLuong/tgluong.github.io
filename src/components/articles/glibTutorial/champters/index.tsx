@@ -12,7 +12,7 @@ const routerData = [
   },
   {
     id: 1,
-    title: 'Champter1',
+    title: 'Installing',
     component: <Champter1/>
   },
   {

@@ -1,9 +1,15 @@
-
+import Head from "next/head"
 
 const Champter1 = () => {
   return (
     <>
-      <div>cham1</div>
+      <Head>
+        <title>How to install gdbus in linux</title>
+        <meta>How to install gdbus in linux</meta>
+      </Head>
+      <div>
+        <h1>Install Dbus in linux</h1>
+      </div>
     </>
   )
 }
