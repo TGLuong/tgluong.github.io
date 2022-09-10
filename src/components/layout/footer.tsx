@@ -11,7 +11,7 @@ const Footer = () => {
     <>
       <div id='contact' className={styles.root}>
         <div className={styles.container}>
-          <h1>Embedded Develooper</h1>
+          <h1>Embedded Developer</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
             Eligendi cupiditate laborum molestias 
