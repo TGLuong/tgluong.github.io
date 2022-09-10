@@ -77,11 +77,11 @@ const signatureData = [
   },
   {
     charactor: '{',
-    type: 'Dictionary/Map begin'
+    type: 'Dictionary, Map begin'
   },
   {
     charactor: '}',
-    type: 'Dictionary/Map end'
+    type: 'Dictionary, Map end'
   },
   {
     charactor: 'h',
@@ -215,7 +215,7 @@ const Intro = () => {
           </li>
           <li>
             <p>
-              Any process on the message bus can register "match rules" indicating which signals it 
+              Any process on the message bus can register &ldquo;match rules&ldquo; indicating which signals it 
               is interested in. The bus has a list of registered match rules.
             </p>
           </li>
