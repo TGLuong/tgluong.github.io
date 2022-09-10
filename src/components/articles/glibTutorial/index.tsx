@@ -1,7 +1,7 @@
 import styles from 'styles/scss/articles/glibTutorial/glibtutorial.module.scss'
 import { BookMark } from 'components/common'
-import routerData from './champters'
-import Intro from './champters/intro'
+import routerData from './chapters'
+import Intro from './chapters/intro'
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 
