@@ -41,9 +41,8 @@ const GlibTutorial = () => {
         <BookMark 
           datas={routerData} 
           selectedId={selectedId}
-          onSelect={(id: number, component: JSX.Element) => { 
-            setComponent(component)
-            setSelectedId(id)
+          onSelect={(id: number) => { 
+            router.push(`/articles/glib-tutorial?champ=${id}`)
           }}
         />
         <div className={styles.contents}>
