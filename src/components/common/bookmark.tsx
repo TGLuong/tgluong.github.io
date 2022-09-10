@@ -10,7 +10,7 @@ export type BookMarkProps = {
     component: JSX.Element
   }>,
   selectedId: number,
-  onSelect(id: number, component: JSX.Element): void,
+  onSelect(id: number, title: string, component: JSX.Element): void,
 }
 
 const BookMark = ({datas, selectedId, onSelect}: BookMarkProps): JSX.Element => {
@@ -22,7 +22,7 @@ const BookMark = ({datas, selectedId, onSelect}: BookMarkProps): JSX.Element => 
           <p 
             key={element.id}
             onClick={() => { 
-              onSelect(element.id, element.component)
+              onSelect(element.id, element.title, element.component)
             }}
             className={classname({[styles.selected]: selectedId == element.id})}
           >
