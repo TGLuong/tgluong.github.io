@@ -13,14 +13,12 @@ tar -xvf dbus-1.14.0.tar.xz`
 const createBuildCode =
 `cd dbus-1.14.0
 mkdir build
-cd build
-`
+cd build`
 
 const buildCode =
 `cmake ..
 make
-make install
-`
+make install`
 
 const Installing = () => {
   return (
