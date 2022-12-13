@@ -12,6 +12,7 @@ const NotFoundPageComponent = () => {
         <div className={styles.container}>
           <Image 
             src='/404.svg' 
+            alt='notfound'
             width={'400px'} 
           />
           <h1>Page Not Found</h1>
