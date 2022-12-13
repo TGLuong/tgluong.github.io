@@ -1,6 +1,7 @@
 @import '/src/styles/scss/colors';
 
 .root {
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -48,6 +49,37 @@
         padding-bottom: 20px;
         text-transform: uppercase;
         color: rgba(0, 0, 0, 1);
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .root {
+    .container {
+      .intro {
+        flex-direction: column;
+
+        .right {
+          width: 100%;
+          padding-left: 0px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .root {
+    .container {
+      margin: 0px 10px;
+
+      .intro {
+        .left {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
       }
     }
   }

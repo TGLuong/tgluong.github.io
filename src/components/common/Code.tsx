@@ -40,7 +40,7 @@ const Code = ({lang, children}: CodeProp): JSX.Element => {
             toast({
               title: 'Copy Successfully',
               status: 'success',
-              description: 'Now you can paste code to you IDE',
+              description: 'Now you can paste code to your IDE',
               duration: 1900,
               isClosable: true,
               position: 'bottom-right'

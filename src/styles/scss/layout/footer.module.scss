@@ -19,7 +19,6 @@
   }
 
   .container {
-    width: 1000px;
     padding: 100px 200px;
 
     .icons {
@@ -45,5 +44,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .root {
+    .container {
+      padding: 100px 0px;
+    }
   }
 }

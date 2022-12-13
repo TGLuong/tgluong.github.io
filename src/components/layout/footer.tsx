@@ -18,11 +18,12 @@ const Footer = () => {
             laudantium animi maiores nisi tempore repellendus. Ipsa, voluptatem?
           </p>
           <div className={styles.icons}>
-            <Icon as={FaPhone} w={8} h={8}/>
-            <Icon as={FaMailBulk} w={8} h={8}/>
-            <Icon as={IoLocationSharp} w={8} h={8}/>
-            <Icon as={AiFillFacebook} w={8} h={8}/>
-            <Icon as={AiFillGithub} w={8} h={8}/>
+            <a target={'_blank'} href={'https://www.facebook.com/gialuong9820'}>
+              <Icon as={AiFillFacebook} w={8} h={8}/>
+            </a>
+            <a target={'_blank'} href={'https://github.com/TGLuong'}>
+              <Icon as={AiFillGithub} w={8} h={8}/>
+            </a>
           </div>
         </div>
         <div className={styles.bottom}>
