@@ -18,10 +18,10 @@ const Footer = () => {
             laudantium animi maiores nisi tempore repellendus. Ipsa, voluptatem?
           </p>
           <div className={styles.icons}>
-            <a target={'_blank'} rel="noopener" href={'https://www.facebook.com/gialuong9820'}>
+            <a target={'_blank'} rel="noopener noreferrer" href={'https://www.facebook.com/gialuong9820'}>
               <Icon as={AiFillFacebook} w={8} h={8}/>
             </a>
-            <a target={'_blank'} rel="noopener" href={'https://github.com/TGLuong'}>
+            <a target={'_blank'} rel="noopener noreferrer" href={'https://github.com/TGLuong'}>
               <Icon as={AiFillGithub} w={8} h={8}/>
             </a>
           </div>
