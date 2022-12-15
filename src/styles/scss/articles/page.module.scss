@@ -61,4 +61,12 @@
     display: block;
     word-wrap: break-word;
   }
+
+  .quote {
+    background-color: #eff1f3;
+    display: inline;
+    padding: 2px 10px 2px 10px;
+    border-radius: 5px;
+    font-family: 'Fira Code';
+  }
 }

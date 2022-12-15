@@ -1,5 +1,6 @@
 import Intro from "./intro";
 import Installing from "./installing";
+import GDBusServerExample from "./gdbusServerExample";
 
 const routerData = [
   {
@@ -12,6 +13,11 @@ const routerData = [
     title: 'Installing',
     component: <Installing/>
   },
+  {
+    id: 2,
+    title: 'Server Example',
+    component: <GDBusServerExample/>
+  }
 ]
 
 
