@@ -156,7 +156,7 @@ const GDBusServerExample = () => {
       </Head>
       <div className={styles.root}>
         <h1 className={styles.header}>GDBus Server Example</h1>        
-        <p>Now i'm creating an dbus server that has a method to caculate area of retangle.</p>
+        <p>Now i&lsquo;m creating an dbus server that has a method to caculate area of retangle.</p>
         <p>Bus name: <p className={styles.quote}>com.gialuong.TestServer</p></p>
         <p>Object path: <p className={styles.quote}>/</p></p>
         <p>Method name: <p className={styles.quote}>com.gialuong.TestInterface.Area</p></p>
