@@ -1,6 +1,8 @@
 import Intro from "./intro";
 import Installing from "./installing";
 import GDBusServerExample from "./gdbusServerExample";
+import ProxyClientExample from "./proxyClientExample";
+import BindingInterfaceIntoObject from "./bindingInterfaceIntoObject";
 
 const routerData = [
   {
@@ -17,6 +19,16 @@ const routerData = [
     id: 2,
     title: 'Server Example',
     component: <GDBusServerExample/>
+  },
+  {
+    id: 3,
+    title: 'Proxy Client',
+    component: <ProxyClientExample/>
+  },
+  {
+    id: 4,
+    title: 'Binding Object',
+    component: <BindingInterfaceIntoObject/>
   }
 ]
 
