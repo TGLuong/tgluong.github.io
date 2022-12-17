@@ -26,6 +26,7 @@ const Code = ({lang, children}: CodeProp): JSX.Element => {
           borderRadius: '5px',
           padding: '20px 20px 20px 20px',
           backgroundColor: '#f6f8fa',
+          minHeight: '60px',
         }}
         
       >
