@@ -13,10 +13,10 @@ const HomePageComponent: NextPage = () => {
         <div className={styles.intro}>
           <div className={styles.left}>
             <Image 
-              // src="/avatar.jpg"
-              boxSize='300px'
-              borderRadius='full'
-              // alt="image"
+              src="/avatar.jpg"
+              maxBlockSize='300px'
+              borderRadius='100px'
+              alt="image"
             />
           </div>
           <div className={styles.right}>
